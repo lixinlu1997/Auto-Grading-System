@@ -4,7 +4,10 @@ This is an auto grading system designed for Shanghai High School Physics Departm
 
 ## Getting Started
 
-To use this system, you have to put boxes inside the test paper for this system to recognize. The boxes have been included in the /box file and you can add them to your test paper file.
+To use this system, you have to put boxes inside the test paper for this system to recognize. The boxes have been included in the /Box file and you can add them to your test paper file. The sample template should look like:
+
+
+
 
 ### Prerequisites
 
