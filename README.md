@@ -1,17 +1,20 @@
 # Project Title
 
-One Paragraph of project description goes here
+This is an auto grading system designed for Shanghai High School Physics Department.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To use this system, you have to put boxes inside the test paper for this system to recognize. The boxes have been included in the /box file and you can add them to your test paper file.
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+pytorch
+opencv
+PIL
+pdf2image
 ```
 
 ### Installing
