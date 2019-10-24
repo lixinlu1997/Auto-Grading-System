@@ -8,7 +8,7 @@ To use this system, you have to put boxes inside the test paper for this system 
 
 ![image](Images/sample_template.png)
 
-
+Then you can put the students' test paper in /original directory, you can merge students in a class in a pdf file. Later the system can do statistic analysis based on classes and whole grade.
 
 
 ### Prerequisites
@@ -22,76 +22,19 @@ PIL
 pdf2image
 ```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+python table_detect.py -p original
 ```
+- Then there will be several .csv file in the /stats directory, depending on how many files you have in /original directory. There has been a sample file in directory.
 
-### And coding style tests
-
-Explain what these tests test and why
-
+- To do statistic analysis, run
 ```
-Give an example
+python statistic.py   
 ```
+- The class analysis results will be stored in /stats/class directory and grade analysis result will be stored in /stats/grade directory
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
 
